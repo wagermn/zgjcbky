@@ -37,9 +37,9 @@
       filename: "CJFDLAST2019!dylx201917025!1!0",
       displaymode: "GBTREFER,elearning,EndNote"
     };
-    axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
     axios.post(url,data,{
       headers: {
+        'Access-Control-Allow-Origin': '*',
         'Origin': 'https://kns.cnki.net',
         'Sec-Fetch-Site': 'same-origin',
         'Sec-Fetch-Mode': 'cors'
